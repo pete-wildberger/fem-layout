@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1%;
+}
+.col-1 {
+  flex: 0 0 24%; /* desktop */
+}
+.col-1 {
+  flex: 0 0 48%; /* tablet */
+}
+.col-1 {
+  flex: 0 0 98%; /* phone */
+}
