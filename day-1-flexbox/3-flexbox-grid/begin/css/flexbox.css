@@ -57,6 +57,7 @@ div img {
 
   .col-9,
   .col-3-9,
+  .col-6-3,
   .col-12 {
     flex: 0 0 92%;
   }
