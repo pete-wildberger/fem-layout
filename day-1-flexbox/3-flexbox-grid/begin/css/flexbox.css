@@ -43,13 +43,14 @@ div img {
 }
 
 /* Mobile Landscape Screen Sizes */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
   /*[class*='col-'] {
     margin-right: 0;
     min-height: 1px;
     float: left;
   }*/
   .col-3,
+  .col-3-6,
   .col-6 {
     flex: 0 0 44%;
   }
@@ -59,14 +60,19 @@ div img {
   .col-12 {
     flex: 0 0 92%;
   }
+  .col-6-3 {
+    order: -1;
+  }
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
   .col-3,
+  .col-3-6,
   .col-3-9 {
     flex: 0 0 20%;
   }
-  .col-6 {
+  .col-6,
+  .col-6-3 {
     flex: 0 0 44%;
   }
   .col-9 {
