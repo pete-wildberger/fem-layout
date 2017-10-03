@@ -37,6 +37,9 @@ div img {
   justify-content: center;
   margin: 1%;
 }
+.reverse {
+  flex-direction: row-reverse;
+}
 [class*='col-'] {
   flex: 0 0 98%; /* phone */
   margin-left: 4%;
