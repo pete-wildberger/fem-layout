@@ -44,7 +44,7 @@ aside {
   }
 }
 @media (min-width: 1000px) {
-  header {
+  /*header {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
@@ -55,5 +55,10 @@ aside {
   aside {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+  }*/
+  .wrapper {
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'sidebar header header header' 'sidebar article article article';
   }
 }
